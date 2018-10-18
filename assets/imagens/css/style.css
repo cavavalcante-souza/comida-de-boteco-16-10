@@ -12,31 +12,13 @@ ul, ol{
     text-decoration: none;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    text-decoration: none;
-}
-
 .barr{
     border-radius: 50px;
 }
 ul li{
     display: inline;
     margin-right: 10px;
+    color: white;
 }
 ul{
     display: inline;
@@ -46,6 +28,30 @@ ul{
 }
 
 nav{
-    padding: 50px;
+    padding: 30px;
     background-color: grey;
+}
+
+.fas{
+    font-size: 50px;
+    color: orange;
+}
+
+li a:hover {
+    transition: all 1s ease-in-out 0.2s;
+    color: blue;
+    font-size: 20px;
+    
+}
+
+li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+main div:first-child h1{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
